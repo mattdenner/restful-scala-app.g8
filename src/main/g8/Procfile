@@ -1,0 +1,1 @@
+web: target/start $package$.$name;format="normalize"$.Main
