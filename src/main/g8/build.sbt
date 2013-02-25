@@ -37,7 +37,5 @@ resolvers ++= Seq(
 libraryDependencies ++= Seq(
   "org.scalaz"    %% "scalaz-core"               % "$scalazVersion$",
   "org.typelevel" %% "scalaz-contrib-210"        % "$scalazContribVersion$",
-  "org.typelevel" %% "scalaz-contrib-validation" % "$scalazContribVersion$",
-  "org.typelevel" %% "scalaz-contrib-undo"       % "$scalazContribVersion$",
-  "org.typelevel" %% "scalaz-dispatch"           % "$scalazContribVersion$"
+  "org.typelevel" %% "scalaz-contrib-validation" % "$scalazContribVersion$"
 )
